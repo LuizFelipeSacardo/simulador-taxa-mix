@@ -1,0 +1,25 @@
+.header{
+  background-image: linear-gradient(var(--background-color-01), var(--background-color-02));
+  color: var(--text-color-01);
+  text-align: center;
+  border: 1px solid var(--background-color-02);
+  border-radius: 15px 15px 0 0;
+  margin: 3px;
+  margin-bottom: 0;
+  max-width: var(--max-width);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title{
+  font-size: 2rem;
+}
+
+
+@media screen and (min-width: 400px) {
+  .header{
+    margin: auto;
+  }
+}
