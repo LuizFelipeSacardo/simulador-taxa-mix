@@ -1,6 +1,6 @@
 .header{
   background-image: linear-gradient(var(--background-color-01), var(--background-color-02));
-  color: var(--text-color-03);
+  color: var(--text-color-01);
   text-align: center;
   border: 1px solid var(--background-color-02);
   border-radius: 15px 15px 0 0;
